@@ -1,0 +1,5 @@
+﻿  LR15.cpp
+C:\Users\sofiy\College\OAiP\LR15\LR15.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sofiy\College\OAiP\LR15\LR15.cpp(46,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\sofiy\College\OAiP\LR15\LR15.cpp(12,58): warning C4101: num: неиспользованная локальная переменная
+  LR15.vcxproj -> C:\Users\sofiy\College\OAiP\LR15\x64\Debug\LR15.exe

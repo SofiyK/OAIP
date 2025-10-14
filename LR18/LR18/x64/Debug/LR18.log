@@ -1,0 +1,3 @@
+﻿  LR18.cpp
+C:\Users\sofiy\College\OAiP\LR18\LR18.cpp(13,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LR18.vcxproj -> C:\Users\sofiy\College\OAiP\LR18\x64\Debug\LR18.exe

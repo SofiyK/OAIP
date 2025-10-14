@@ -1,0 +1,3 @@
+﻿  LR22.cpp
+C:\Users\sofiy\College\OAiP\LR22\LR22.cpp(30,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LR22.vcxproj -> C:\Users\sofiy\College\OAiP\LR22\x64\Debug\LR22.exe

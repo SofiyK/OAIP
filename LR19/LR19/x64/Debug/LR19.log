@@ -1,0 +1,3 @@
+﻿  LR19.cpp
+C:\Users\sofiy\College\OAiP\LR19\LR19.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LR19.vcxproj -> C:\Users\sofiy\College\OAiP\LR19\x64\Debug\LR19.exe

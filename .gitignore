@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Draw.io временные
+*.bkp
+*.dtmp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Word, временные
+~$*
+*.tmp
+
+# Системные
+*.vsidx

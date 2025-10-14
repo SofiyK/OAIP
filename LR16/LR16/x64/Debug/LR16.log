@@ -1,0 +1,4 @@
+﻿  LR16.cpp
+C:\Users\sofiy\College\OAiP\LR16\LR16.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sofiy\College\OAiP\LR16\LR16.cpp(11,19): warning C4101: k: неиспользованная локальная переменная
+  LR16.vcxproj -> C:\Users\sofiy\College\OAiP\LR16\x64\Debug\LR16.exe

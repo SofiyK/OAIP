@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Страница — 1" id="TbdQUQ7sn5e9ftXngeRB">
+    <mxGraphModel dx="508" dy="382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yxP3RD0MdA_ezWguwUF-1" target="2yxP3RD0MdA_ezWguwUF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-1" value="начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="328" y="123" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yxP3RD0MdA_ezWguwUF-2" target="2yxP3RD0MdA_ezWguwUF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-2" value="ввод&lt;br&gt;a,b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="174" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yxP3RD0MdA_ezWguwUF-3" target="2yxP3RD0MdA_ezWguwUF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-3" value="a=a/180*pi&lt;div&gt;b=b/180*pi&lt;/div&gt;&lt;div&gt;&lt;div&gt;z1 = pow(cos(a) - cos(b), 2) - pow(sin(a) - sin(b), 2);&lt;/div&gt;&lt;div&gt;z2 = -4 * pow(sin((a - b) / 2.), 2) * cos(a + b);&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219.5" y="221" width="337" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yxP3RD0MdA_ezWguwUF-4" target="2yxP3RD0MdA_ezWguwUF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-4" value="вывод&lt;br&gt;z1,z2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="307" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2yxP3RD0MdA_ezWguwUF-5" value="конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="328" y="363" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

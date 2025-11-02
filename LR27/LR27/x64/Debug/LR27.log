@@ -1,0 +1,4 @@
+﻿  LR27.cpp
+C:\Users\sofiy\College\OAiP\LR27\LR27.cpp(24,9): warning C4101: j: неиспользованная локальная переменная
+C:\Users\sofiy\College\OAiP\LR27\LR27.cpp(24,6): warning C4101: i: неиспользованная локальная переменная
+  LR27.vcxproj -> C:\Users\sofiy\College\OAiP\LR27\x64\Debug\LR27.exe

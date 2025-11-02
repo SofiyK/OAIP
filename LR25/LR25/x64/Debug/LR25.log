@@ -1,0 +1,3 @@
+﻿  LR25.cpp
+C:\Users\sofiy\College\OAiP\LR25\LR25.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  LR25.vcxproj -> C:\Users\sofiy\College\OAiP\LR25\x64\Debug\LR25.exe

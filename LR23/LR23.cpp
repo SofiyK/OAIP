@@ -4,7 +4,6 @@
 using namespace std;
 
 void create(int x[][20], int n, int m) {
-
 	for (int i = 0;i < n;i++) {
 		for (int j = 0;j < m; j++) {
 			x[i][j] = rand() % 11 - 5;

@@ -36,8 +36,8 @@ int main()
 
 	for (i = 0; i < n; i++) {
 		cout << "\nCтудент " << i + 1 << ": ";
-		if (stud[i].step == 2) cout << "повышенная стипендия" << endl;
-		else if (stud[i].step == 1) cout << "обычная стипендия" << endl;
-		else cout << "НЕТ СТИПЕНДИИ!!!!!!!!!!!!!!!!!!!!!!!!!"<< endl;
+		if (stud[i].step == 2) cout << "повышенная степендия" << endl;
+		else if (stud[i].step == 1) cout << "обычная степендия" << endl;
+		else cout << "НЕТ СТЕПЕНДИИ!!!!!!!!!!!!!!!!!!!!!!!!!"<< endl;
 	}
 }

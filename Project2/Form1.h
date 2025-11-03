@@ -66,9 +66,11 @@ namespace Project2 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(372, 152);
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.875F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label1->Location = System::Drawing::Point(344, 127);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(39, 25);
+			this->label1->Size = System::Drawing::Size(67, 42);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"R=";
 			// 
@@ -84,11 +86,12 @@ namespace Project2 {
 			// 
 			// button1
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.125F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.875F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(332, 312);
+			this->button1->Location = System::Drawing::Point(300, 297);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(272, 96);
+			this->button1->Size = System::Drawing::Size(426, 147);
 			this->button1->TabIndex = 2;
 			this->button1->Text = L"Посчитать площадь кольца";
 			this->button1->UseVisualStyleBackColor = true;
@@ -97,11 +100,11 @@ namespace Project2 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Sans Serif Collection", 7.874999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Sans Serif Collection", 13.875F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label2->Location = System::Drawing::Point(365, 186);
+			this->label2->Location = System::Drawing::Point(330, 168);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(51, 72);
+			this->label2->Size = System::Drawing::Size(89, 126);
 			this->label2->TabIndex = 3;
 			this->label2->Text = L"r=";
 			// 
@@ -138,6 +141,7 @@ namespace Project2 {
 			this->Controls->Add(this->label1);
 			this->Name = L"Form1";
 			this->Text = L"Form1";
+			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -192,6 +196,8 @@ private: System::Void textBox2_KeyPress(System::Object^ sender, System::Windows:
 		return;
 	}
 	e->Handled = true;
+}
+private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

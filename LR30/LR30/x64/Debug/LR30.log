@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\sofiy\College\OAiP\LR30\MyForm.h(219,35): warning C4101: ex: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  LR30.vcxproj -> C:\Users\sofiy\College\OAiP\LR30\x64\Debug\LR30.exe

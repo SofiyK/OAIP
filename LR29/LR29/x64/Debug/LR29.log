@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\sofiy\College\OAiP\LR29\MyForm.cpp(5,6): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  LR29.vcxproj -> C:\Users\sofiy\College\OAiP\LR29\x64\Debug\LR29.exe

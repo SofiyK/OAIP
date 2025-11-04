@@ -1,0 +1,3 @@
+C:\Users\sofiy\College\OAiP\LR31\LR31\x64\Debug\LR31.vcxproj.AssemblyReference.cache
+C:\Users\sofiy\College\OAiP\LR31\LR31\x64\Debug\LR31.MyForm.resources
+C:\Users\sofiy\College\OAiP\LR31\LR31\x64\Debug\LR31.vcxproj.GenerateResource.cache

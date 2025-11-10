@@ -97,7 +97,7 @@ namespace LR32 {
 		Brush^ br2 = gcnew SolidBrush(Color::Red);
 		Brush^ br3 = gcnew SolidBrush(Color::Green);
 		Brush^ br4 = gcnew SolidBrush(Color::Yellow);
-		Brush^ br5 = gcnew SolidBrush(Color::Purple);
+		Brush^ br5 = gcnew SolidBrush(Color::Orange);
 
 		int i = rand() % 5;
 

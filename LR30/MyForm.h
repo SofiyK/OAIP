@@ -228,12 +228,12 @@ namespace LR30 {
 
 
 private: System::Void radioButton1_Click(System::Object^ sender, System::EventArgs^ e) {
-	label2->Text = "";
+	label2->Text = "0";
 	textBox1->Focus();
 }
 
 private: System::Void radioButton2_Click(System::Object^ sender, System::EventArgs^ e) {
-	label2->Text = "";
+	label2->Text = "0";
 	textBox1->Focus();
 }
 

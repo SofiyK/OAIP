@@ -1,4 +1,6 @@
 #pragma once
+#define _USE_MATH_DEFINES
+#include<math.h>
 
 namespace Project2 {
 
@@ -153,7 +155,7 @@ namespace Project2 {
 		try {
 			R = Convert::ToDouble(textBox1->Text);
 			r = Convert::ToDouble(textBox2->Text);
-			s = 3.14 * (R * R - r * r);
+			s = M_PI * (R * R - r * r);
 			label4->Text = s.ToString();
 		}
 		catch (System::FormatException^ ex) {

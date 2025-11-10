@@ -218,7 +218,7 @@ namespace LR31 {
 		}
 		catch (System::FormatException^ ex) {
 			MessageBox::Show(
-				"Enter the initial data", "Error",
+				"Введите значения", "Ошибка",
 				MessageBoxButtons::OK,
 				MessageBoxIcon::Exclamation);
 			textBox1->Focus();
@@ -243,7 +243,7 @@ private: System::Void textBox2_KeyPress(System::Object^ sender, System::Windows:
 	if ((e->KeyChar >= '0') && (e->KeyChar <= '9')) return;
 	if (e->KeyChar == '.') e->KeyChar = ',';
 	if (e->KeyChar == ',') {
-		if (textBox1->Text->IndexOf(',') != -1)
+		if (textBox2->Text->IndexOf(',') != -1)
 			e->Handled = true;
 		return;
 	}
@@ -258,7 +258,7 @@ private: System::Void textBox3_KeyPress(System::Object^ sender, System::Windows:
 	if ((e->KeyChar >= '0') && (e->KeyChar <= '9')) return;
 	if (e->KeyChar == '.') e->KeyChar = ',';
 	if (e->KeyChar == ',') {
-		if (textBox1->Text->IndexOf(',') != -1)
+		if (textBox3->Text->IndexOf(',') != -1)
 			e->Handled = true;
 		return;
 	}

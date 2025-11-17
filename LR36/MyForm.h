@@ -1,9 +1,9 @@
 #pragma once
-
+#include<iostream>
 #include<ctime>
 #include<cstdlib>
 int i, j, a[50][50],n,m;
-
+using namespace std;
 namespace LR36 {
 
 	using namespace System;
@@ -347,8 +347,8 @@ namespace LR36 {
 				dataGridView1->Columns->Clear();
 				dataGridView1->ColumnCount = m;
 				dataGridView1->RowCount = n;
-				for (int i = 0; i < m; i++)
-					for (int j = 0; j < n; j++) {
+				for (int i = 0; i < n; i++)
+					for (int j = 0; j < m; j++) {
 						//a[i][j] = Convert::ToSingle(this->dataGridView1->Rows[j]->Cells[i]->Value);
 						a[i][j] = rand() % 21 - 10;
 						dataGridView1->Rows[i]->Cells[j]->Value = a[i][j].ToString();
@@ -362,47 +362,49 @@ namespace LR36 {
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 		
-		int suma = 0, count = 0, proisv = 1, stolb4 = 0,strok2=0;
-		for (int i = 0; i < m; i++)
-			for (int j = 0; j < n; j++) {
-				if ((a[i][j] % 5 != 0)&&(a[i][j] < 0)) suma += a[i][j];
-				if (i == j) {
-					if (a[i][j] % 2 == 0) {
+		int suma = 0, count = 0, proisv = 1, stolb4 = 0, strok2 = 0;
+		if ((n > 50) || (m > 50) || (n == 0) || (m == 0)) {
+			MessageBox::Show("Количество строк/стобцов матрицы должно быть меньше 50",
+				"Ошибка ввода данных",
+				MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+		}
+		else {
+			for (int i = 0; i < n; i++)
+				for (int j = 0; j < m; j++) {
+					if ((a[i][j] % 5 != 0) && (a[i][j] < 0)) suma += a[i][j];
+					if ((i == j) && (a[i][j] % 2 == 0)) {
 						count += 1;
 					}
-				}
-				if ((n == 6) && (m == 6)) {
-					if (i == 3) {
-						if (a[i][j] > 0) {
+					if ((n >= 2) && (m >= 4)) {
+						if ((j == 3) && (a[i][j] > 0)) {
 							stolb4 += a[i][j];
 						}
-					}
-					if (j == 1) {
-						if (a[i][j] % 2 == 0) {
-							strok2 += 1;
+						if ((i == 1) && (a[i][j] % 2 == 0)) {
+							strok2++;
 						}
 					}
 				}
+			proisv = stolb4 * strok2;
+			if (checkBox1->Checked == true) {
+				this->textBox3->Text = Convert::ToString(suma);
 			}
-		proisv = stolb4 * strok2;
-		if (checkBox1->Checked == true) {
-			this->textBox3->Text = Convert::ToString(suma);
+			else {
+				textBox3->Text = "";
+			}
+			if (checkBox2->Checked == true) {
+				this->textBox4->Text = Convert::ToString(count);
+			}
+			else {
+				textBox4->Text = "";
+			}
+			if (checkBox3->Checked == true) {
+				this->textBox5->Text = Convert::ToString(proisv);
+			}
+			else {
+				textBox5->Text = "";
+			}
 		}
-		else {
-			textBox3->Text = "";
-		}
-		if (checkBox2->Checked == true) {
-			this->textBox4->Text = Convert::ToString(count);
-		}
-		else {
-			textBox4->Text = "";
-		}
-		if (checkBox3->Checked == true) {
-			this->textBox5->Text = Convert::ToString(proisv);
-		}
-		else {
-			textBox5->Text = "";
-		}
+		
 	}
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	Close();

@@ -1,5 +1,6 @@
 #include "MyForm.h"
 #include <Windows.h>
+#include<iostream>
 #include<ctime>
 #include<cstdlib>
 using namespace LR36;

@@ -1,0 +1,9 @@
+﻿  MyForm.cpp
+C:\Users\sofiy\College\OAiP\LR35\MyForm.h(281,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\sofiy\College\OAiP\LR35\MyForm.h(296,63): warning C4101: num: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  LR35.vcxproj -> C:\Users\sofiy\College\OAiP\LR35\x64\Debug\LR35.exe

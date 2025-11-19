@@ -241,7 +241,7 @@ namespace LR37 {
 				b = System::IO::File::ReadAllText(File);
 			}
 			catch (...) {
-				System::IO::File::WriteAllText("LR36.txt", "");
+				System::IO::File::WriteAllText("LR37.txt", "");
 				return;
 			}
 			while (b->Length > 0) {
@@ -273,7 +273,7 @@ namespace LR37 {
 		}
 	}
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	SaveToFile("LR36.txt", this->listBox1);
+	SaveToFile("LR37.txt", this->listBox1);
 }
 
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -286,18 +286,20 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
 	String^ x1 = textBox1->Text;
-	listBox1->Items->Add(x1);
-	this->textBox1->Clear();
+	if (x1 != "") {
+		listBox1->Items->Add(x1);
+		this->textBox1->Clear();
+	}
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->LoadFromFile("LR36.txt", this->listBox1);
+	this->LoadFromFile("LR37.txt", this->listBox1);
 }
 
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (listBox1->SelectedIndex == -1) {
-		MessageBox::Show("Неверный формат строки",
+		MessageBox::Show("Выберите спортсмена для подсчета очков",
 			"Ошибка",
-			MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+			MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 	String^ line = listBox1->SelectedItem->ToString();
